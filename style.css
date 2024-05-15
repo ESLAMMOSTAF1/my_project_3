@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.firstnav {
+    margin-left: 15%;
+}
+
+.listnav {
+    margin-left: 50%;
+}
+
+.back {
+    background: url(./imag/bg-masthead.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    opacity: 85%;
+}
+
+.Centering {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.Line {
+    border-bottom: 4px solid orangered;
+    width: 100px;
+    margin-left: 35%;
+}
+
+.firsbuttun {
+    position: absolute;
+    bottom: -50%;
+    left: 30%;
+    width: 165px;
+    height: 54px;
+    border-radius: 40px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
+.about {
+    background-color: orangered;
+    height: 75vh;
+}
+
+.about h1 {
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.about p {
+    margin-left: 20%;
+}
+
+.Line_two {
+    border-bottom: 4px solid white;
+    width: 100px;
+    margin-left: 43%;
+    margin-top: 5%;
+}
+
+.scondebuttun {
+    position: absolute;
+    bottom: -70%;
+    left: 44%;
+    width: 165px;
+    height: 54px;
+    border-radius: 40px;
+    background-color: white;
+    border: none;
+    font-weight: 700;
+}
+
+hr.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+}
+
+.sizeofimg {
+    width: 450px;
+    height: 250px;
+    margin-left: -15px;
+}
+
+.click a img:hover {
+    background-color: #f4623a;
+}
+
+.backofdownload {
+    background-color: darkslategray;
+    height: 45vh;
+}
+
+.styleofbuttun {
+    width: 175px !important;
+    height: 60px;
+    color: black;
+    background-color: white;
+    border-radius: 40px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    position: absolute;
+    left: 45%;
+    margin-top: 14% !important;
+}
+
+.formstyleofbuttun {
+    width: 400px;
+    height: 55px;
+    background-color: #FF5580;
+    color: white;
+    border: none;
+    border-radius: 40px;
+}
+
+.backoffooter {
+    background-color: #F1F1F1;
+    height: 20vh;
+}
+
+@media(max-width:767px) {
+    .listnav {
+        margin-left: 15%;
+        z-index: 2;
+    }
+
+    .Centering {
+        z-index: 1;
+    }
+
+    .Centering h1 {
+        font-size: 30px !important;
+        z-index: 1;
+    }
+
+    .Centering p {
+        font-size: 11px !important;
+    }
+
+.Line {
+    width: 70px;
+    margin-left: 25%;
+}
+
+.firsbuttun {
+    position: absolute;
+    bottom: -25%;
+    left: 7%;
+    width: 156px;
+    height: 50px;
+    font-weight: 600;
+}
+.about {
+    height: 75vh;
+}
+
+.about h1 {
+    margin-left: 12%;
+    font-size: 22px;
+}
+
+.about p {
+    margin-left: 20%;
+}
+
+.Line_two {
+    width: 80px;
+    margin-left: 39%;
+}
+
+.scondebuttun {
+    position: absolute;
+    bottom: -70%;
+    left: 33%;
+    width: 156px;   
+    height: 50px;
+    font-weight: 600;
+}
+
+.icons {
+    text-align: center;
+}
+
+.sizeofimg {
+    width: 363px;
+}
+
+.backofdownload h1 {
+    font-size: 20px !important;
+}
+
+.styleofbuttun {
+    width: 145px !important;
+    height: 50px;
+    font-size: 12px;
+    position: absolute;
+    left: 32%;
+    margin-top: 45% !important;
+}
+
+.formstyleofbuttun {
+    width: 335px;
+}
+
+
+}
